@@ -1,5 +1,15 @@
 <?php
-require_once(explode("wp-content", __FILE__)[0] . "wp/wp-load.php");
+$filepath_a1 = explode("wp-content", __FILE__)[0] . "wp/wp-load.php";
+$filepath_regular = explode("wp-content", __FILE__)[0] . "wp-load.php";
+if (file_exists($filepath_a1)) {
+  require_once($filepath_a1);
+} else if (file_exists($filepath_regular)) {
+  require_once($filepath_regular);
+} else {
+  echo 'File can not be loaded in ' . __FILE__ . ' in line ' . __LINE__;
+  die();
+}
+
 
 /**
  * Search for a pattern in a string and replace it with the home URL of the website.
