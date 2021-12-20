@@ -10,7 +10,6 @@ if (file_exists($filepath_a1)) {
   die();
 }
 
-
 /**
  * Search for a pattern in a string and replace it with the home URL of the website.
  *

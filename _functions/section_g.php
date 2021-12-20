@@ -28,7 +28,7 @@ function content_element_section_g($all_data, $section_index) {
                     ?>
                     <div class="form-group">
                         <label><?= $form_element['label'] ?><?= ($form_element['required']) ? ' *' : ''?></label>
-                        <a class="input-wrapper focusable" href="#"></a>
+                        <a class="input-wrapper focusable" href="javascript:void(0);"></a>
                         <input
                             type="text"
                             name="<?= $form_element['name'] ?>"
