@@ -1,10 +1,10 @@
 <?php
-// Section H - Zerconf Debugger
+// Section H - Zeroconf Debugger
 function content_element_section_h($all_data, $section_index) {
     ?>
     <!-- section_h -->
     <section id="section_<?= $section_index ?>" class="xploretv-h">
-        <h3>Zerconf API</h3>
+        <h3>Zeroconf API</h3>
         <p>Showing response from <a href="https://localhost/a1/xploretv/v1/zeroconf" class="focusable">https://localhost/a1/xploretv/v1/zeroconf</a></p>
         <textarea style="width: 100%; height: 50vh; font-size: 13px; background-color: white; color: black !important;" class="focusable" id="zeroconf_debug"></textarea>
 

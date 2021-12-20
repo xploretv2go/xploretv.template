@@ -1,5 +1,5 @@
 <?php
-require_once(explode("wp-content", __FILE__)[0] . "wp-load.php");
+require_once(explode("wp-content", __FILE__)[0] . "wp/wp-load.php");
 
 /**
  * Search for a pattern in a string and replace it with the home URL of the website.
@@ -24,7 +24,6 @@ require_once('section_e.php');
 require_once('section_f.php');
 require_once('section_g.php');
 require_once('section_h.php');
-require_once('section_i.php');
 require_once('section_j.php');
 require_once('section_k.php');
 require_once('section_l.php');

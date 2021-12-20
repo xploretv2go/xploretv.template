@@ -1440,97 +1440,9 @@
                 "layout_603e4f731d43d": {
                     "key": "layout_603e4f731d43d",
                     "name": "section_h",
-                    "label": "Section H - Zerconf Debug",
+                    "label": "Section H - Zeroconf Debug",
                     "display": "block",
                     "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_600ac2e3ebdcd": {
-                    "key": "layout_600ac2e3ebdcd",
-                    "name": "section_i",
-                    "label": "Section I - Streaming Video",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_600acbc69315f",
-                            "label": "Headline",
-                            "name": "headline",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
-                        },
-                        {
-                            "key": "field_600acbce93160",
-                            "label": "Copytext",
-                            "name": "copytext",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
-                        },
-                        {
-                            "key": "field_600ac2e3ebdce",
-                            "label": "Streaming Source",
-                            "name": "streaming_source",
-                            "type": "url",
-                            "instructions": "",
-                            "required": 1,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": ""
-                        },
-                        {
-                            "key": "field_600ac35cebdd6",
-                            "label": "Poster Image",
-                            "name": "poster_image",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "array",
-                            "preview_size": "medium",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        }
-                    ],
                     "min": "",
                     "max": ""
                 },
@@ -1787,5 +1699,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1634029659
+    "modified": 1639148203
 }

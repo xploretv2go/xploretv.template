@@ -1,5 +1,5 @@
-# xploretv
-<h2>What is xploretv.smarthome</h2>
+# xploretv.template
+<h2>What is xploretv.template</h2>
 
 This is a WordPress template for the VEWD browser used on the XploreTV set top box (STB).
 It supports several basic template elements like paragraphs, videos, image blocks, questionnaires and alike to get your started with your very first WordPress website with the STB user in mind.

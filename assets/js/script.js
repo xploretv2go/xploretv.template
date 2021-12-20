@@ -296,6 +296,8 @@ function getCookie(name) {
     if ($('.product-info').length > 0) {
         $('.product-info').each(function(index){
             $(".product-info").not('.slick-initialized').slick({
+                accessibility: true,
+                infinite: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,
