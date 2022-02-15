@@ -1,17 +1,19 @@
 <?php
 // Section H - Zeroconf Debugger
 function content_element_section_h($all_data, $section_index) {
+    //$detectUrl = 'https://localhost/a1/xploretv/v1/zeroconf';
+    $detectUrl = 'http://zeroconf:15051/a1/xploretv/v1/zeroconf';
     ?>
     <!-- section_h -->
     <section id="section_<?= $section_index ?>" class="xploretv-h">
         <h3>Zeroconf API</h3>
-        <p>Showing response from <a href="https://localhost/a1/xploretv/v1/zeroconf" class="focusable">https://localhost/a1/xploretv/v1/zeroconf</a></p>
+        <p>Showing response from <a href="<?= $detectUrl ?>" class="focusable"><?= $detectUrl ?></a></p>
         <textarea style="width: 100%; height: 50vh; font-size: 13px; background-color: white; color: black !important;" class="focusable" id="zeroconf_debug"></textarea>
 
         <script>
             window.addEventListener('load', function() {
 
-                const detection_url = 'https://localhost/a1/xploretv/v1/zeroconf';
+                const detection_url = '<?= $detectUrl ?>';
                 var request = $.ajax({
                     url: detection_url,
                     method: "GET"
